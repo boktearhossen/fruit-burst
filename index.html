@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit-Burst</title>
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
     <!-- tailwind and daisyui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,33 +22,30 @@
         .font-nato {
             font-family: 'Noto Sans', sans-serif;
         }
-
         .banner-image-one {
             background-image: url('./image/banner1.png');
             background-position: center;
             object-fit: cover;
         }
-
         .banner-image-two {
             background-image: url('./image/banner2.png');
             background-position: center;
             object-fit: cover;
         }
-
         .banner-image-three {
             background-image: url('./image/banner3.png');
             background-position: center;
             object-fit: cover;
         }
-
         .banner-image-four {
             background-image: url('./image/banner4.png');
             background-position: center;
             object-fit: cover;
         }
-
         .team-image {
             background-image: url('./image/team.png');
+            background-size: cover;
+            background-repeat: no-repeat;
             
         }
     </style>
@@ -448,7 +446,7 @@
 
 
         <!-- Meet the team section start here ===========================================================-->
-        <section class="relative py-8 md:py-12 lg:py-16 h-full bg-no-repeat px-8 z-10" style="background-image: url('./image/team.png');">
+        <section class="relative py-8 md:py-12 lg:py-16 team-image px-8 z-10" ">
             <div class="absolute inset-0 bg-black opacity-50 -z-10"></div>
             <div class="text-center ">
                 <h2 class="text-4xl lg:text-5xl font-semibold text-white">Meet the team section</h2>
