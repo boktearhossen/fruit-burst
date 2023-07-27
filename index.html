@@ -45,6 +45,10 @@
             background-position: center;
             object-fit: cover;
         }
+        .team-image {
+            background-image: url('./image/team.png');
+          
+        }
     </style>
 </head>
 
@@ -194,7 +198,10 @@
             </div>
         </section>
         <!-- fruit section end  ===========================================================-->
-        <!-- Deal of the day section start ================================================-->
+
+
+
+        <!-- Deal of the day section start here================================================-->
         <section class="container mx-auto mt-12 md:mt-36 mb-14 gap-10 px-8 lg:px-0">
             <!-- deal head -->
             <div class=" flex flex-col lg:flex-row">
@@ -246,7 +253,7 @@
                 </div>
             </div>
             <!-- deal card -->
-            <div class="mt-10 rounded-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
+            <div class="mt-10  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
                 <!-- card 1 -->
                 <div class=" border flex flex-col px-5 py-6 text-center justify-center rounded-md">
                     <div class="flex  px-5 py-6 text-center items-center justify-center">
@@ -432,11 +439,118 @@
                     </dialog>
                 </div>
             </div>
-            <!-- Deal of the day section end ================================================-->
+            <div class="flex justify-center mt-8">
+              <button class="btn btn-error px-10">Shop All</button>
+            </div>
+        </section>    
+            <!-- Deal of the day section end here================================================-->
+
+     <!-- Meet the team section start here ===========================================================-->
+        <section class="relative py-8 md:py-12 lg:py-16 team-image px-8 z-10">
+          <div class="absolute inset-0 bg-black opacity-50 -z-10"></div>
+            <div class="text-center ">
+                <h2 class="text-4xl lg:text-5xl font-semibold text-white">Deal of the day</h2>
+                <p class="text-base font-medium text-white mt-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <!-- team card -->
+               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
+                 <!-- card 1 -->
+                 <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./image/member1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h3 class="text-white text-2xl font-bold">Awlad Hossain</h3>
+                      <p class="text-white text-base font-medium mb-4 mt-3">Fruits Expert</p>
+                      <div class="grid grid-flow-col gap-6">
+                        <i class="fa-brands fa-apple text-xl text-white bg-[#F85559] px-2  rounded-full"></i>
+                        <i class="fa-brands fa-instagram text-xl text-white bg-[#F85559] px-2 rounded-full"></i>
+                        <i class="fa-brands fa-linkedin-in text-xl text-white bg-[#F85559] px-2 rounded-full"></i>
+                    </div>
+                    </div>
+                  </div>
+                 <!-- card 2 -->
+                 <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./image/member2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h3 class="text-white text-2xl font-bold">Safia Chowdhury</h3>
+                      <p class="text-white text-base font-medium mb-4 mt-3">Fruits Expert</p>
+                      <div class="grid grid-flow-col gap-6">
+                        <i class="fa-brands fa-apple text-xl text-white bg-[#F85559] px-2  rounded-full"></i>
+                        <i class="fa-brands fa-instagram text-xl text-white bg-[#F85559] px-2 rounded-full"></i>
+                        <i class="fa-brands fa-linkedin-in text-xl text-white bg-[#F85559] px-2 rounded-full"></i>
+                    </div>
+                    </div>
+                  </div>
+                 <!-- card 3 -->
+                 <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./image/member3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h3 class="text-white text-2xl font-bold">Rokib Hossain</h3>
+                      <p class="text-white text-base font-medium mb-4 mt-3">Fruits Expert</p>
+                      <div class="grid grid-flow-col gap-6">
+                        <i class="fa-brands fa-apple text-xl text-white bg-[#F85559] px-2  rounded-full"></i>
+                        <i class="fa-brands fa-instagram text-xl text-white bg-[#F85559] px-2 rounded-full"></i>
+                        <i class="fa-brands fa-linkedin-in text-xl text-white bg-[#F85559] px-2 rounded-full"></i>
+                    </div>
+                    </div>
+                  </div>
+                 <!-- card 1 -->
+                 <div class="card ">
+                    <figure class="px-10 pt-10">
+                      <img src="./image/member4.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h3 class="text-white text-2xl font-bold">Chaity</h3>
+                      <p class="text-white text-base font-medium mb-4 mt-3">Fruits Expert</p>
+                      <div class="grid grid-flow-col gap-6">
+                        <i class="fa-brands fa-apple text-xl text-white bg-[#F85559] px-2  rounded-full"></i>
+                        <i class="fa-brands fa-instagram text-xl text-white bg-[#F85559] px-2 rounded-full"></i>
+                        <i class="fa-brands fa-linkedin-in text-xl text-white bg-[#F85559] px-2 rounded-full"></i>
+                    </div>
+                    </div>
+                  </div>
+               </div>             
+        </section>
+     <!-- Meet the team section end here ===========================================================-->
+
+
     </main>
 
 </body>
-
 </html>
 
-<!-- text-[#F85559] text-lg font-bold cursor-pointer mt-3 -->
+
+<!-- footer section start ==================================-->
+<!-- <footer class="footer footer-center -space-y-2 px-10 py-20 bg-[#121212] text-base-content rounded">
+    <div class="flex items-center -ml-10">
+        <img class="mr-4" src="./image/logo.png" alt="">
+        <a class="text-3xl text-white font-bold">Fruit Burst</a>
+    </div>
+    <div class="flex gap-8 flex-wrap justify-center mt-0 ">
+        <a class="text-lg font-medium text-white">Home</a>
+        <a class="text-lg font-medium text-white">About us</a>
+        <a class="text-lg font-medium text-white">Shop</a>
+        <a class="text-lg font-medium text-white">All Fruits</a>
+        <a class="text-lg font-medium text-white">Support</a>
+        <a class="text-lg font-medium text-white">My Account</a>
+    </div>
+    <div>
+        <div class="grid grid-flow-col gap-6">
+            <i class="fa-brands fa-facebook text-3xl text-white"></i>
+            <i class="fa-brands fa-instagram text-3xl text-white"></i>
+            <i class="fa-brands fa-twitter text-3xl text-white"></i>
+            <i class="fa-brands fa-youtube text-3xl text-white"></i>
+            <i class="fa-brands fa-linkedin text-3xl text-white"></i>
+            <i class="fa-brands fa-apple text-3xl text-white"></i>
+        </div>
+    </div>
+    <div>
+        <p class="text-gray-500">Copyright © 2023 - All right reserved by ABCD Industries Ltd</p>
+    </div>
+</footer> -->
+<!-- footer section end ==================================
